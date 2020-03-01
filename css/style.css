@@ -1,0 +1,126 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+padding: 0;
+margin: 0;
+background-color:whitesmoke;
+
+}
+/*global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+
+}
+/*Header*/
+header{
+    background:darkblue;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: yellow 3px solid;
+}
+/*Sega ova e za linkojne*/
+header a{
+    color:yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/*ova e za menivo da e horizontalno*/
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight{
+    color: yellowgreen;
+    font-weight: bold;
+
+}
+/*ova e sega za dugminjana da se zgolemvit so pominvenje na mauson*/
+header a:hover{
+color: rgb(138, 22, 2);
+font-weight: bold;
+}
+/*showcase*/
+.showcase{
+    
+background: url(../img/sunset.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    min-height: 400px;
+    text-align: center;
+    border-bottom: yellow 3px solid;
+}
+.showcase h2{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.showcase p1{
+    font-size: 20px;
+}
+.cells{
+    margin-top:;
+    border-bottom: yellow 3px solid;
+}
+.cells .cell{
+    float: left;
+    width: 30%;
+    padding: 100px;
+    text-align: center;
+}
+.meals{
+    margin-top: 20px;
+    border-bottom: yellow 3px solid;
+}
+.meals #meal{
+    float: left;
+    padding: 100px;
+    text-align: center;
+   
+    
+}
+footer{
+    padding: 20px;
+    
+    color: yellow;
+    background-color: darkblue;
+    text-align: center;
+}
+.full{
+background-color: white;
+}
+.cells #eden{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+.meals #dva{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
